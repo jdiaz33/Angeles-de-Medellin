@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AdeM">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
+        <title>Ángeles de Medellín</title>
+        
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <!-- AdeM CSS -->
+        <link rel="stylesheet" href="css/AdeM.css">
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700,700i" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <div class="brand">Ángeles de Medellín</div>
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                    <a class="navbar-brand" ng-href="#/">Ángeles de Medellín</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li><a ng-href="#/">Home</a></li>
+                        <li><a ng-href="#red">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        
+        <div ng-view></div>
+        
+        <!-- js -->
+        <script src="https://code.angularjs.org/1.5.9/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.5.9/angular-route.min.js"></script>
+        <script src="js/mainAngular.js"></script>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
