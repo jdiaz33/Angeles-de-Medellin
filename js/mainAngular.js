@@ -6,8 +6,8 @@ AdeM.config(function($routeProvider) {
         templateUrl : "views/home.html",
         controller: "homeCtrl"
     })
-    .when("/red", {
-        templateUrl : "views/red.html"
+    .when("/whatwedo", {
+        templateUrl : "views/whatwedo.html"
     })
     .when("/green", {
         templateUrl : "green.htm"
