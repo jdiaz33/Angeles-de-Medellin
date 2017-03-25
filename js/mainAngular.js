@@ -9,11 +9,11 @@ AdeM.config(function($routeProvider) {
     .when("/whatwedo", {
         templateUrl : "views/whatwedo.html"
     })
-    .when("/green", {
-        templateUrl : "green.htm"
+    .when("/howtohelp", {
+        templateUrl : "views/howtohelp.html"
     })
-    .when("/blue", {
-        templateUrl : "blue.htm"
+    .when("/timelines", {
+        templateUrl : "views/timelines.html"
     });
 });
 
