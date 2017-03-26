@@ -162,6 +162,25 @@ hr {
         margin-bottom: -5px;
     }
     
+    #initiatives {
+        border: 1px solid #CFD0D4;  
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
+    #initiatives ul {
+        background: #eee;
+        border-bottom: 3px solid #222534;
+    }
+    
+    #initiatives {
+        background: aqua;
+    }
+    
+    #initiatives a {
+        padding: 10px;
+    }
+    
 }
 
 @media screen and (min-width:1200px) {
