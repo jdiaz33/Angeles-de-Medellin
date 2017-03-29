@@ -169,16 +169,34 @@ hr {
     }
     
     #initiatives ul {
-        background: #eee;
+        background: #d9d9d9;
         border-bottom: 3px solid #222534;
     }
     
-    #initiatives {
-        background: aqua;
-    }
     
     #initiatives a {
         padding: 10px;
+    }
+    
+    .initiative {
+        padding: 0px 10px 10px 10px;
+    }
+    
+    .initiative h3 {
+        font-size: 20px;
+        margin-top: 3px;
+        margin-bottom: 2px;
+        letter-spacing: 0px;
+    }
+    
+    .initiative i {
+        font-size: 24px;
+        height: 64px;
+        line-height: 64px;
+        text-align: center;
+        width: 40px;
+        border-radius: 100%;
+        color: #00CCFE;
     }
     
 }
