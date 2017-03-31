@@ -171,6 +171,8 @@ hr {
     #initiatives ul {
         background: #d9d9d9;
         border-bottom: 3px solid #222534;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
     }
     
     
@@ -205,17 +207,31 @@ hr {
         margin-bottom: 40px;
     }
     
+    #supplies-header {
+        background: #d9d9d9;
+        border-bottom: 3px solid #222534;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    
+    #supplies-header h4 {
+        padding-top: 15px;
+    }
+    
     .col-lg-2 {
         text-align: center;
+        margin-top: 30px;
     }
     
     #donate h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     #supplies {
-        background-color: #d9d9d9;
-        opacity: 0.5
+        background: url('../img/backgrounds/Blue-Gradient.jpg');
+        border: 1px solid #CFD0D4;
+        border-radius: 5px;
+        padding: 0 10px 0 10px;
     }
     
 }
