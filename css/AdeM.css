@@ -129,6 +129,10 @@ hr {
     .navbar-nav>li>a {
         line-height: normal;
     }
+    
+    .navbar-default .navbar-nav > .active > a, 
+    .navbar-default .navbar-nav > .active > a:hover, 
+    .navbar-default .navbar-nav > .active > a:focus { color: #00CCFE !important; background-color: transparent; font-weight: 700; }
 
     .navbar-nav {
         display: table;
