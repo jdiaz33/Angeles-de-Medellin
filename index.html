@@ -26,7 +26,7 @@
         
         <!-- Navigation -->
         <nav class="navbar navbar-default" role="navigation">
-            <div class="container">
+            <div class="container" ng-controller="activeCtrl">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
@@ -41,10 +41,10 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="nav navbar-nav">
-                        <li><a ng-href="#/">Home</a></li>
-                        <li><a ng-href="#whatwedo">What We Do</a></li>
-                        <li><a ng-href="#howtohelp">How To Help</a></li>
-                        <li><a ng-href="#timelines">Timelines</a></li>
+                        <li ng-class="{active: location.path() == '/'}"><a ng-href="#/">Home</a></li>
+                        <li ng-class="{active: location.path() == '/whatwedo'}"><a ng-href="#whatwedo">What We Do</a></li>
+                        <li ng-class="{active: location.path() == '/howtohelp'}"><a ng-href="#howtohelp">How To Help</a></li>
+                        <li ng-class="{active: location.path() == '/timelines'}"><a ng-href="#timelines">Timelines</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
