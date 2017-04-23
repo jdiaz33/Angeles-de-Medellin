@@ -23,3 +23,8 @@ AdeM.controller("homeCtrl", function($scope){
     })
     
 });
+
+AdeM.controller("activeCtrl", function($scope, $rootScope, $location){
+   $rootScope.location = $location;
+});
+
