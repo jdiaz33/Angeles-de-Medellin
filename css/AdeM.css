@@ -238,12 +238,19 @@ hr {
         padding: 0 10px 0 10px;
     }
     
+    #footer {
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+        color: #777;
+        padding: 10px;
+    }
+    
+    #footer i {font-size: 25px; padding: 10px; color: #00CCFE;}
+    
+    #footer h5 {text-transform: none; font-size: 15px;}
+    
 }
 
 @media screen and (min-width:1200px) {
-    .box:after {
-        content: '';
-        display: table;
-        clear: both;
-    }
+    .box:after {content: ''; display: table; clear: both;}
 }
