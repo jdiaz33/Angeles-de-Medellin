@@ -170,6 +170,7 @@ hr {
         border: 1px solid #CFD0D4;  
         border-radius: 5px;
         padding: 10px;
+        background: url('../img/backgrounds/Blue-Gradient.jpg');
     }
     
     #initiatives ul {
@@ -202,10 +203,12 @@ hr {
         text-align: center;
         width: 40px;
         border-radius: 100%;
-        color: #00CCFE;
+        color: white;
     }
     
-    #donate p {
+    .initiative p {padding-left: 15px; padding-right: 15px;}
+    
+    #donate p, #initTitle {
         width: 80%;
         margin: auto;
         margin-bottom: 40px;
