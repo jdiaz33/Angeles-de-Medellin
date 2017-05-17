@@ -14,81 +14,26 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
 }
 
-p {
-    font-size: 1.20em;
-    line-height: 1.6;
-    color: #000;
-}
+p {font-size: 1.20em; line-height: 1.6; color: #000;}
 
-.brand {
-    display: none;
-}
+.brand {display: none;}
+.brand-before {margin: 15px 0;}
+.navbar-brand {text-transform: uppercase; font-weight: 900; letter-spacing: 2px;}
+.navbar-nav {font-weight: 400; letter-spacing: 3px;}
 
-.brand-before {
-    margin: 15px 0;
-}
-
-.navbar-brand {
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 2px;
-}
-
-.navbar-nav {
-    /*text-transform: uppercase;*/
-    font-weight: 400;
-    letter-spacing: 3px;
-}
-
-.img-full {
-    min-width: 100%;
-}
-
-.img-border {
-    float: none;
-    margin: 0 auto 0;
-    border: #999999 solid 1px;
-}
-
-.img-left {
-    float: none;
-    margin: 0 auto 0;
-}
-
-.img-right {
-    float: none;
-    margin: 0 auto 0;
-}
+.img-full {min-width: 100%;}
+.img-border {float: none;margin: 0 auto 0;border: #999999 solid 1px;}
+.img-left {float: none; margin: 0 auto 0;}
+.img-right {float: none; margin: 0 auto 0;}
 
 .brand-before,
-.brand-name {
-    text-transform: capitalize;
-}
+.brand-name {text-transform: capitalize;}
+.brand-name {margin: 0; font-size: 4em;}
 
-.brand-name {
-    margin: 0;
-    font-size: 4em;
-}
+.tagline-divider {margin: 15px auto 3px; max-width: 250px; border-color: #999999;}
+hr {max-width: 400px; border-color: #999999;}
 
-.tagline-divider {
-    margin: 15px auto 3px;
-    max-width: 250px;
-    border-color: #999999;
-}
-
-hr {
-    max-width: 400px;
-    border-color: #999999;
-}
-
-.intro-text {
-    text-transform: uppercase;
-    font-size: 1.25em;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-
-
+.intro-text {text-transform: uppercase; font-size: 1.25em; font-weight: 400; letter-spacing: 1px;}
 
 @media screen and (min-width:768px) {
     .brand {
@@ -104,157 +49,216 @@ hr {
         color: #fff;
     }
     
-    .navbar {
-        border-radius: 0;
-    }
-    
-    .navbar {
-        min-height: 0;
-    }
-
-    .navbar-default {
-        border: none;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
-    }
-    
-    .navbar-header {
-        display: none;
-    }
-
-    .nav>li>a {
-        padding: 35px;
-    }
-
-    .navbar-nav>li>a {
-        line-height: normal;
-    }
-    
+    .navbar {border-radius: 0;}
+    .navbar {min-height: 0;}
+    .navbar-default {border: none; background: #fff; background: rgba(255,255,255,0.9);}
+    .navbar-header {display: none;}
+    .nav>li>a {padding: 35px;}
+    .navbar-nav>li>a {line-height: normal;}
     .navbar-default .navbar-nav > .active > a, 
     .navbar-default .navbar-nav > .active > a:hover, 
     .navbar-default .navbar-nav > .active > a:focus { color: #00CCFE !important; background-color: transparent; font-weight: 700; }
-
-    .navbar-nav {
-        display: table;
-        float: none;
-        margin: 0 auto;
-        table-layout: fixed;
-        font-size: 1.25em;
-    }
+    .navbar-nav {display: table; float: none; margin: 0 auto; table-layout: fixed; font-size: 1.25em;}
     
-    .box {
-        margin-bottom: 20px;
-        padding: 30px 15px;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
-    }
+    .box {margin-bottom: 20px; padding: 30px 15px; background: #fff; background: rgba(255,255,255,0.9);}
     
-     .img-left {
-        float: left;
-        margin-right: 25px;
-        margin-bottom: 15px;
-    }
+     .img-left {float: left; margin-right: 25px; margin-bottom: 15px;}
+    .img-right {float: right; margin-left: 25px;}
     
-    .img-right {
-        float: right;
-        margin-left: 25px;
-    }
+    .quote {font-style: italic; font-weight: 600; margin-bottom: -5px;}
     
-    .quote {
-        font-style: italic;
-        font-weight: 600;
-        margin-bottom: -5px;
-    }
-    
-    #initiatives {
-        border: 1px solid #CFD0D4;  
-        border-radius: 5px;
-        padding: 10px;
-        background: url('../img/backgrounds/Blue-Gradient.jpg');
-    }
-    
-    #initiatives ul {
-        background: #d9d9d9;
-        border-bottom: 3px solid #222534;
-        border-top-right-radius: 5px;
-        border-top-left-radius: 5px;
-    }
-    
-    
-    #initiatives a {
-        padding: 10px;
-    }
-    
-    .initiative {
-        padding: 0px 10px 10px 10px;
-    }
-    
-    .initiative h3 {
-        font-size: 20px;
-        margin-top: 3px;
-        margin-bottom: 2px;
-        letter-spacing: 0px;
-    }
-    
-    .initiative i {
-        font-size: 24px;
-        height: 64px;
-        line-height: 64px;
-        text-align: center;
-        width: 40px;
-        border-radius: 100%;
-        color: white;
-    }
-    
+    #initiatives {border: 1px solid #CFD0D4; border-radius: 5px; padding: 10px; background: url('../img/backgrounds/Blue-Gradient.jpg');}
+    #initiatives ul {background: #d9d9d9; border-bottom: 3px solid #222534; border-top-right-radius: 5px; border-top-left-radius: 5px;}
+    #initiatives a {padding: 10px;}
+    .initiative {padding: 0px 10px 10px 10px;}
+    .initiative h3 {font-size: 20px; margin-top: 3px; margin-bottom: 2px; letter-spacing: 0px;}
+    .initiative i {font-size: 24px; height: 64px; line-height: 64px; text-align: center; width: 40px; border-radius: 100%; color: white;}
     .initiative p {padding-left: 15px; padding-right: 15px;}
     
-    #donate p, #initTitle {
-        width: 80%;
-        margin: auto;
-        margin-bottom: 40px;
-    }
+    iframe {float: right; padding: 10px;}  
     
-    #supplies-header {
-        background: #d9d9d9;
-        border-bottom: 3px solid #222534;
-        border-top-right-radius: 5px;
-        border-top-left-radius: 5px;
-    }
+    #donate p, #initTitle {width: 80%; margin: auto; margin-bottom: 40px;}
+    #donate h3 {font-size: 18px;}
     
-    #supplies-header h4 {
-        padding-top: 15px;
-    }
+    #supplies-header {background: #d9d9d9; border-bottom: 3px solid #222534; border-top-right-radius: 5px; border-top-left-radius: 5px;}
+    #supplies-header h4 {padding-top: 15px;}
+    #supplies {background: url('../img/backgrounds/Blue-Gradient.jpg'); border: 1px solid #CFD0D4; border-radius: 5px; padding: 0 10px 0 10px;}
     
-    .col-lg-2 {
-        text-align: center;
-        margin-top: 30px;
-    }
+    .col-lg-2 {text-align: center; margin-top: 30px;}
     
-    #donate h3 {
-        font-size: 18px;
-    }
-    
-    #supplies {
-        background: url('../img/backgrounds/Blue-Gradient.jpg');
-        border: 1px solid #CFD0D4;
-        border-radius: 5px;
-        padding: 0 10px 0 10px;
-    }
-    
-    #footer {
-        background: #fff;
-        background: rgba(255,255,255,0.9);
-        color: #777;
-        padding: 10px;
-    }
-    
+    #footer {background: #fff; background: rgba(255,255,255,0.9); color: #777; padding: 10px;}
     #footer i {font-size: 25px; padding: 10px; color: #00CCFE;}  
     #footer h5 {text-transform: none; font-size: 15px;}
-    
-    iframe {float: right; padding: 10px;}
-    
 }
 
 @media screen and (min-width:1200px) {
     .box:after {content: ''; display: table; clear: both;}
+}
+
+/******************************************************************************************************/
+#timelineTab {background: #d9d9d9; border-bottom: 3px solid #222534; margin-bottom: 25px;}
+#timelineTab a {padding: 10px; font-size: 20px;}
+#tabDescription {width: 80%; margin: auto; line-height: 25px; margin-bottom: 25px;}
+
+.timeline {list-style: none; padding: 0; position: relative;}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: white;
+  left: 40px;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 50px;
+  position: relative;
+  min-height: 50px;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li .timeline-panel {
+  width: 100%;
+  float: right;
+  padding: 0 20px 0 100px;
+  position: relative;
+  text-align: left;
+}
+.timeline > li .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline > li .timeline-image {
+  left: 0;
+  margin-left: 0;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  z-index: 100;
+  background-color: #fed136;
+  color: white;
+  border-radius: 100%;
+  border: 4px solid #00CCFE;
+  text-align: center;
+}
+.timeline > li .timeline-image h4 {
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 14px;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  text-align: left;
+  padding: 0 20px 0 100px;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline > li:last-child {
+  margin-bottom: 0;
+}
+.timeline .timeline-heading h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.timeline .timeline-heading h4.subheading {
+  text-transform: none;
+}
+.timeline .timeline-body > p,
+.timeline .timeline-body > ul {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline > li {
+    min-height: 100px;
+  }
+  .timeline > li .timeline-panel {
+    width: 41%;
+    float: left;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 13px;
+    margin-top: 16px;
+    line-height: 18px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 30px 20px 20px;
+  }
+}
+@media (min-width: 992px) {
+  .timeline > li {
+    min-height: 150px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 26px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 170px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+  .timeline > li .timeline-image h4 {
+    margin-top: 40px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
 }
