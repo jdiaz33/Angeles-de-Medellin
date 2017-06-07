@@ -67,12 +67,12 @@ hr {max-width: 400px; border-color: #999999;}
     
     .quote {font-style: italic; font-weight: 600; margin-bottom: -5px;}
     
-    #initiatives {border: 1px solid #CFD0D4; border-radius: 5px; padding: 10px; background: url('../img/backgrounds/Blue-Gradient.jpg');}
+    #initiatives {border: 1px solid #00CCFE; border-radius: 5px; padding: 10px; background-color: white;);}
     #initiatives ul {background: #d9d9d9; border-bottom: 3px solid #222534; border-top-right-radius: 5px; border-top-left-radius: 5px;}
     #initiatives a {padding: 10px;}
     .initiative {padding: 0px 10px 10px 10px;}
     .initiative h3 {font-size: 20px; margin-top: 3px; margin-bottom: 2px; letter-spacing: 0px;}
-    .initiative i {font-size: 24px; height: 64px; line-height: 64px; text-align: center; width: 40px; border-radius: 100%; color: white;}
+    .initiative i {font-size: 24px; height: 64px; line-height: 64px; text-align: center; width: 40px; border-radius: 100%; color: #00CCFE;}
     .initiative p {padding-left: 15px; padding-right: 15px;}
     
     iframe {float: right; padding: 10px;}  
@@ -82,7 +82,7 @@ hr {max-width: 400px; border-color: #999999;}
     
     #supplies-header {background: #d9d9d9; border-bottom: 3px solid #222534; border-top-right-radius: 5px; border-top-left-radius: 5px;}
     #supplies-header h4 {padding-top: 15px;}
-    #supplies {background: url('../img/backgrounds/Blue-Gradient.jpg'); border: 1px solid #CFD0D4; border-radius: 5px; padding: 0 10px 0 10px;}
+    #supplies {background-color: white; border: 1px solid #00CCFE; border-radius: 5px; padding: 0 10px 0 10px;}
     
     .col-lg-2 {text-align: center; margin-top: 30px;}
     
